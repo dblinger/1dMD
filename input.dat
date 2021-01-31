@@ -1,0 +1,11 @@
+# Harmonic oscillator parameters
+k=1.e-2 # Harmonic oscillator force constant (Hartree/(Bohr^2)
+xeq = 1.0 # Harmoinc oscillator equilibrium bond length (Bohr)
+
+# Shared Parameters 
+mass=35/36*1836.152 # reduced mass for the vibrational mode in a.u.
+vinit = 0.0 # initial velocity (Bohr/(a.u. of time))
+#xinit = 1.4e0*1.88973 # initial bond length (Bohr)
+delT = 1.0e-3 # timestep in a.u. of time
+Nstep=1000000 #number of timesteps in trajectory
+dospec=True # toggle vibraitonal spectrum generation
